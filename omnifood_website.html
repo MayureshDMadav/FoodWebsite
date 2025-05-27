@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omnifood - Never Cook Again</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./component/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          <i class="fas fa-utensils"></i> Omnifood
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon">
+            <i class="fas fa-bars" style="color: #e67e22"></i>
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#how-it-works">How It Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#meals">Meals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+          </ul>
+          <a href="#cta" class="btn-primary-custom ml-3">Try for Free</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content">
+              <h1>A healthy meal delivered to your door, every single day</h1>
+              <p>
+                The smart 365-days-per-year food subscription that will make you
+                eat healthy again. Tailored to your personal tastes and
+                nutritional needs.
+              </p>
+              <div class="hero-buttons">
+                <a href="#pricing" class="btn btn-primary-custom"
+                  >Start Eating Well</a
+                >
+                <a href="#how-it-works" class="btn btn-outline-light"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-image">
+              <div
+                class="meal-image"
+                style="border-radius: 1rem; height: 25rem"
+              >
+                <i class="fas fa-hamburger"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>Your daily dose of health in 3 simple steps</h2>
+          <p>
+            Tell us what you like and what you don't like, and we'll create a
+            custom meal plan just for you.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="feature-card fade-in">
+              <div class="feature-icon">
+                <i class="fas fa-infinity"></i>
+              </div>
+              <h3>Never cook again!</h3>
+              <p>
+                Our subscriptions cover 365 days per year, even including major
+                holidays.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="feature-card fade-in">
+              <div class="feature-icon">
+                <i class="fas fa-leaf"></i>
+              </div>
+              <h3>Local and organic</h3>
+              <p>
+                Our cooks only use local, fresh, and organic products to prepare
+                your meals.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="feature-card fade-in">
+              <div class="feature-icon">
+                <i class="fas fa-recycle"></i>
+              </div>
+              <h3>No waste</h3>
+              <p>
+                All our partners only use reusable containers and apply
+                plastic-free packaging.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>How it works</h2>
+          <p>Your daily dose of health in 3 simple steps</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="step fade-in">
+              <div class="step-number">01</div>
+              <h3>Tell us what you like</h3>
+              <p>
+                Never again waste time thinking about what to eat! Omnifood AI
+                will create a 100% personalized weekly meal plan just for you.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="step fade-in">
+              <div class="step-number">02</div>
+              <h3>Approve your weekly meal plan</h3>
+              <p>
+                Once per week, approve the meal plan generated for you by
+                Omnifood AI. You can change ingredients, swap entire meals, or
+                even add your own recipes.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="step fade-in">
+              <div class="step-number">03</div>
+              <h3>Receive meals at convenient time</h3>
+              <p>
+                Best chefs in town will cook your selected meal every day, and
+                we will deliver it to your door whenever works best for you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Meals Section -->
+    <section id="meals" class="meals">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>Omnifood AI chooses from 5,000+ recipes</h2>
+          <p>
+            Our AI creates personalized meal plans based on your tastes and
+            nutritional needs
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="meal-card fade-in">
+              <div class="meal-image">
+                <i class="fas fa-fish"></i>
+              </div>
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="meal-tag">Non-Veg</span>
+                  <span class="meal-tag">Fresh</span>
+                </div>
+                <div class="meal-title">Tava Fish</div>
+                <ul class="meal-attributes">
+                  <li>
+                    <i class="fas fa-fire"></i> <strong>650</strong> calories
+                  </li>
+                  <li>
+                    <i class="fas fa-star"></i> <strong>4.9</strong> rating
+                    (537)
+                  </li>
+                  <li>
+                    <i class="fas fa-clock"></i> <strong>74%</strong> NutriScore
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="meal-card fade-in">
+              <div class="meal-image">
+                <i class="fas fa-seedling"></i>
+              </div>
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="meal-tag">Veg</span>
+                  <span class="meal-tag">Fresh</span>
+                </div>
+                <div class="meal-title">Mix Salad</div>
+                <ul class="meal-attributes">
+                  <li>
+                    <i class="fas fa-fire"></i> <strong>400</strong> calories
+                  </li>
+                  <li>
+                    <i class="fas fa-star"></i> <strong>4.8</strong> rating
+                    (441)
+                  </li>
+                  <li>
+                    <i class="fas fa-clock"></i> <strong>92%</strong> NutriScore
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="meal-card fade-in">
+              <div class="meal-image">
+                <i class="fas fa-drumstick-bite"></i>
+              </div>
+              <div class="meal-content">
+                <div class="meal-tags">
+                  <span class="meal-tag">Gluten-free</span>
+                </div>
+                <div class="meal-title">Grilled Chicken</div>
+                <ul class="meal-attributes">
+                  <li>
+                    <i class="fas fa-fire"></i> <strong>520</strong> calories
+                  </li>
+                  <li>
+                    <i class="fas fa-star"></i> <strong>4.7</strong> rating
+                    (365)
+                  </li>
+                  <li>
+                    <i class="fas fa-clock"></i> <strong>87%</strong> NutriScore
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center fade-in">
+          <h4 class="mb-4">Works with any diet:</h4>
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <i class="fas fa-check-circle text-success mr-2"></i>
+                <span>Vegetarian</span>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <i class="fas fa-check-circle text-success mr-2"></i>
+                <span>Vegan</span>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <i class="fas fa-check-circle text-success mr-2"></i>
+                <span>Pescatarian</span>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <i class="fas fa-check-circle text-success mr-2"></i>
+                <span>Gluten-free</span>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <i class="fas fa-check-circle text-success mr-2"></i>
+                <span>Lactose-free</span>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <i class="fas fa-check-circle text-success mr-2"></i>
+                <span>Keto</span>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <i class="fas fa-check-circle text-success mr-2"></i>
+                <span>Paleo</span>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <i class="fas fa-check-circle text-success mr-2"></i>
+                <span>Low FODMAP</span>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <i class="fas fa-check-circle text-success mr-2"></i>
+                <span>Kid-friendly</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>Once you try it, you can't go back</h2>
+          <p>
+            Don't take our word for it. Here's what our customers say about us.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="testimonial-card fade-in">
+              <p class="testimonial-text">
+                Inexpensive, healthy and great-tasting meals, without even
+                having to order manually! It feels truly magical.
+              </p>
+              <div class="testimonial-author">— Dave Bryson</div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="testimonial-card fade-in">
+              <p class="testimonial-text">
+                The AI algorithm is crazy good, it chooses the right meals for
+                me every time. It's amazing not to worry about food anymore!
+              </p>
+              <div class="testimonial-author">— Ben Hadley</div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="testimonial-card fade-in">
+              <p class="testimonial-text">
+                Omnifood is a life saver! I just started a company, so there's
+                no time for cooking. I couldn't live without my daily meals now!
+              </p>
+              <div class="testimonial-author">— Steve Miller</div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="testimonial-card fade-in">
+              <p class="testimonial-text">
+                I got Omnifood for the whole family, and it frees up so much
+                time! Plus, everything is organic and vegan and without plastic.
+              </p>
+              <div class="testimonial-author">— Hannah Smith</div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="testimonial-card fade-in">
+              <p class="testimonial-text">
+                Amazing service! The food is fresh, healthy, and delicious. The
+                delivery is always on time. Highly recommended!
+              </p>
+              <div class="testimonial-author">— Sarah Johnson</div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="testimonial-card fade-in">
+              <p class="testimonial-text">
+                Perfect for busy professionals. The variety is excellent and the
+                nutrition information helps me stay on track with my fitness
+                goals.
+              </p>
+              <div class="testimonial-author">— Mike Chen</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>Eating well without breaking the bank</h2>
+          <p>Choose the plan that works best for you</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="pricing-card fade-in">
+              <div class="pricing-plan">Starter</div>
+              <div class="pricing-price">Rs.399</div>
+              <div class="pricing-period">
+                per month. That's just Rs.13.30 per meal!
+              </div>
+
+              <ul class="pricing-features">
+                <li><i class="fas fa-check"></i> 1 meal per day</li>
+                <li><i class="fas fa-check"></i> Order from 11am to 9pm</li>
+                <li><i class="fas fa-check"></i> Delivery is free</li>
+                <li>
+                  <i class="fas fa-times text-muted"></i> Get access to latest
+                  recipes
+                </li>
+              </ul>
+
+              <a href="#cta" class="btn-primary-custom">Start eating well</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="pricing-card featured fade-in">
+              <div class="pricing-plan">Complete</div>
+              <div class="pricing-price">Rs.649</div>
+              <div class="pricing-period">
+                per month. That's just Rs.10.80 per meal!
+              </div>
+
+              <ul class="pricing-features">
+                <li><i class="fas fa-check"></i> 2 meals per day</li>
+                <li><i class="fas fa-check"></i> Order 24/7</li>
+                <li><i class="fas fa-check"></i> Delivery is free</li>
+                <li>
+                  <i class="fas fa-check"></i> Get access to latest recipes
+                </li>
+              </ul>
+
+              <a href="#cta" class="btn-primary-custom">Start eating well</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center fade-in mt-4">
+          <p class="text-muted">
+            Prices include all applicable taxes. You can cancel at any time.
+            Both plans include the following:
+          </p>
+
+          <div class="row mt-4">
+            <div class="col-md-3 mb-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <i class="fas fa-infinity text-success mr-2"></i>
+                <small>Never cook again!</small>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <i class="fas fa-leaf text-success mr-2"></i>
+                <small>Local and organic</small>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <i class="fas fa-recycle text-success mr-2"></i>
+                <small>No waste</small>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="d-flex align-items-center justify-content-center">
+                <i class="fas fa-pause text-success mr-2"></i>
+                <small>Pause anytime</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="cta">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center fade-in">
+            <h2>Get your first meal for free!</h2>
+            <p>
+              Healthy, tasty and hassle-free meals are waiting for you. Start
+              eating well today. You can cancel or pause anytime. And the first
+              meal is on us!
+            </p>
+
+            <form class="row justify-content-center mt-4" id="ctaForm">
+              <div class="col-md-4 mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="col-md-4 mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="col-md-4 mb-3">
+                <select class="form-control" required>
+                  <option value="">Please choose one option:</option>
+                  <option value="friends">Friends and family</option>
+                  <option value="youtube">YouTube video</option>
+                  <option value="podcast">Podcast</option>
+                  <option value="facebook">Facebook ad</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn-white">Sign up now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="footer-brand">
+              <i class="fas fa-utensils"></i> Omnifood
+            </div>
+            <p style="color: rgba(255, 255, 255, 0.7); margin-bottom: 1.5rem">
+              A healthy meal delivered to your door, every single day. We make
+              sure you eat well without having to think about it.
+            </p>
+            <div class="footer-social">
+              <a href="#" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h5 style="color: var(--white); margin-bottom: 1rem">Contact us</h5>
+            <ul style="list-style: none; padding: 0; margin: 0">
+              <li style="margin-bottom: 0.5rem">
+                <span style="color: rgba(255, 255, 255, 0.7)"
+                  >623 Harrison St., 2nd Floor, San Francisco, CA 94107</span
+                >
+              </li>
+              <li style="margin-bottom: 0.5rem">
+                <a
+                  href="tel:415-201-6370"
+                  style="color: rgba(255, 255, 255, 0.7); text-decoration: none"
+                  >415-201-6370</a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:hello@omnifood.com"
+                  style="color: rgba(255, 255, 255, 0.7); text-decoration: none"
+                  >hello@omnifood.com</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h5 style="color: var(--white); margin-bottom: 1rem">Account</h5>
+            <ul style="list-style: none; padding: 0; margin: 0">
+              <li style="margin-bottom: 0.5rem">
+                <a
+                  href="#"
+                  style="
+                    color: rgba(255, 255, 255, 0.7);
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                  "
+                  >Create account</a
+                >
+              </li>
+              <li style="margin-bottom: 0.5rem">
+                <a
+                  href="#"
+                  style="
+                    color: rgba(255, 255, 255, 0.7);
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                  "
+                  >Sign in</a
+                >
+              </li>
+              <li style="margin-bottom: 0.5rem">
+                <a
+                  href="#"
+                  style="
+                    color: rgba(255, 255, 255, 0.7);
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                  "
+                  >iOS app</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  style="
+                    color: rgba(255, 255, 255, 0.7);
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                  "
+                  >Android app</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h5 style="color: var(--white); margin-bottom: 1rem">Company</h5>
+            <ul style="list-style: none; padding: 0; margin: 0">
+              <li style="margin-bottom: 0.5rem">
+                <a
+                  href="#"
+                  style="
+                    color: rgba(255, 255, 255, 0.7);
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                  "
+                  >About Omnifood</a
+                >
+              </li>
+              <li style="margin-bottom: 0.5rem">
+                <a
+                  href="#"
+                  style="
+                    color: rgba(255, 255, 255, 0.7);
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                  "
+                  >For Business</a
+                >
+              </li>
+              <li style="margin-bottom: 0.5rem">
+                <a
+                  href="#"
+                  style="
+                    color: rgba(255, 255, 255, 0.7);
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                  "
+                  >Cooking partners</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  style="
+                    color: rgba(255, 255, 255, 0.7);
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                  "
+                  >Careers</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h5 style="color: var(--white); margin-bottom: 1rem">Resources</h5>
+            <ul style="list-style: none; padding: 0; margin: 0">
+              <li style="margin-bottom: 0.5rem">
+                <a
+                  href="#"
+                  style="
+                    color: rgba(255, 255, 255, 0.7);
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                  "
+                  >Recipe directory</a
+                >
+              </li>
+              <li style="margin-bottom: 0.5rem">
+                <a
+                  href="#"
+                  style="
+                    color: rgba(255, 255, 255, 0.7);
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                  "
+                  >Help center</a
+                >
+              </li>
+              <li style="margin-bottom: 0.5rem">
+                <a
+                  href="#"
+                  style="
+                    color: rgba(255, 255, 255, 0.7);
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                  "
+                  >Privacy & terms</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-copyright">
+          <div class="text-center">
+            <p>&copy; 2024 by Omnifood, Inc. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./component/script.js"></script>
+  </body>
+</html>
