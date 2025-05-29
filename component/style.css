@@ -659,6 +659,11 @@ footer {
 }
 
 @media (max-width: 767.98px) {
+
+  .mobile-class-view{
+    margin-top: 7rem;
+  }
+
   .hero {
     text-align: center;
   }
