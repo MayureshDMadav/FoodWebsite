@@ -108,6 +108,7 @@ body {
   align-items: center;
   position: relative;
   overflow: hidden;
+  margin-top: 6rem;
 }
 
 .hero::before {
@@ -372,8 +373,6 @@ body {
 .meal-tags {
   margin-bottom: 1rem;
 }
-
-
 
 .meal-tag {
   display: inline-block;
@@ -659,8 +658,7 @@ footer {
 }
 
 @media (max-width: 767.98px) {
-
-  .mobile-class-view{
+  .mobile-class-view {
     margin-top: 7rem;
   }
 
