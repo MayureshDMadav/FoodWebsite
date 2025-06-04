@@ -95,12 +95,7 @@ body {
 }
 
 .hero {
-  background: linear-gradient(
-      135deg,
-      rgba(230, 126, 34, 0.9),
-      rgba(243, 156, 18, 0.9)
-    ),
-    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%23f8f9fa" width="1200" height="800"/><circle fill="%23e67e22" opacity="0.1" cx="200" cy="200" r="150"/><circle fill="%23f39c12" opacity="0.1" cx="800" cy="400" r="200"/><circle fill="%23e67e22" opacity="0.1" cx="1000" cy="600" r="100"/></svg>');
+  background-image: url("https://t4.ftcdn.net/jpg/02/11/60/49/360_F_211604911_wn1FqBnH7TRfN87ux5pnQ2sgZUj7rGYd.jpg");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -108,6 +103,7 @@ body {
   align-items: center;
   position: relative;
   overflow: hidden;
+  isolation: isolate;
   margin-top: 6rem;
 }
 
@@ -125,9 +121,18 @@ body {
   );
 }
 
+.hero::after {
+  content: "";
+  position: absolute;
+  background: rgb(24, 23, 23);
+  inset: 0;
+  opacity: 0.7;
+  z-index: -1;
+}
+
 .hero-content {
   position: relative;
-  z-index: 2;
+  z-index: 5;
 }
 
 .hero h1 {
@@ -176,9 +181,13 @@ body {
 }
 
 .hero-image img {
+  z-index: 1;
   width: 100%;
-  height: auto;
+  opacity: 10;
+  height: 25rem;
   border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
@@ -336,8 +345,7 @@ body {
 }
 
 .meal-image {
-  height: 15rem;
-  background: var(--gradient);
+  height: 15rem;  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -361,9 +369,11 @@ body {
   );
 }
 
-.meal-image i {
+.meal-image #card_image {
   position: relative;
   z-index: 1;
+  height: 15rem;
+  background-position: center;
 }
 
 .meal-content {
@@ -670,14 +680,13 @@ footer {
     font-size: 2rem;
   }
 
-
-  #navbarNav a{
+  #navbarNav a {
     display: flex;
     justify-content: center;
     text-align: center;
   }
 
-  .navbar{
+  .navbar {
     padding: 1rem;
   }
 
